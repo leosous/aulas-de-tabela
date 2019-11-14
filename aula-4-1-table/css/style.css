@@ -1,0 +1,66 @@
+@import url('normalize.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+
+th{
+    padding: 8px;
+    background-color: orange;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 1.3em;
+}
+
+
+
+td{
+    padding: 10px;
+    border-left: 1px solid #ddd;
+    text-align: right;
+}
+
+td:first-child{
+    border-left: none;
+}
+
+tr:last-child{
+    border-bottom: rgb(0, 0, 0);
+}
+
+tr.day{
+    height: 60px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+tr:nth-child(even){
+    background-color: rgb(252, 227, 204);
+    border-bottom: 1px solid rgb(250, 157, 35);
+    border-top: 1px solid rgb(250, 157, 35);
+}
+
+.rodape{
+    border-top: 1px solid rgb(250, 157, 35);
+    background-color: rgb(92, 92, 92);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.es{
+    text-align: left;
+}
+
+.ce{
+    text-align: center;
+}

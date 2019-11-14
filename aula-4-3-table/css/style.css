@@ -1,0 +1,41 @@
+@import url('normalize.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th{
+    width: 12.5%;
+    height: 30px;
+    border: 1px solid black;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+
+th{
+    font-weight: bold;
+}
+
+.clientes{
+    transform: rotate(90deg);
+    font-weight: bold;
+
+}
+
+.total{
+    text-align: right;
+    font-weight: bold;
+}
+
+.moeda{
+  
+}
